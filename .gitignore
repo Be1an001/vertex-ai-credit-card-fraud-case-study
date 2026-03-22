@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python / notebook leftovers
+__pycache__/
+.ipynb_checkpoints/
+
+# Local data files you do not want to publish
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Keep repo clean
+*.tmp
+*.log
