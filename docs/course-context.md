@@ -1,7 +1,3 @@
-\# Course Context
-
-
-
 \## Course
 
 
