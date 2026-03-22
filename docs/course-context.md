@@ -1,8 +1,12 @@
+\# Course Context
+
+
+
 \## Course
 
 
 
-\*\*EAI6020: AI Systems Technology\*\*
+\*\*EAI6020: AI Systems Technology\*\*  
 
 Northeastern University
 
@@ -16,7 +20,7 @@ This project fits the course because EAI6020 was not only about building models.
 
 
 
-The course emphasized topics such as:
+The course covered topics such as:
 
 
 
@@ -36,7 +40,7 @@ The course emphasized topics such as:
 
 
 
-In Module 4, the focus moved toward:
+In Module 4, the focus moved more directly into:
 
 
 
@@ -48,73 +52,97 @@ In Module 4, the focus moved toward:
 
 \- trust in AI outputs
 
-\- practical workflow choices
+\- practical workflow decisions
 
 
 
-That is why using Vertex AI AutoML was appropriate for this assignment.
+That is why using Vertex AI AutoML was a good fit for this assignment.
 
 
 
-\## Why Vertex AI was a reasonable choice
+\## Why I used Vertex AI
 
 
 
-I used Vertex AI because this project was about more than coding a classifier.
+I used Vertex AI because this project was not only about coding a classifier.
 
 
 
-Vertex AI helped me practice:
+A big part of the learning goal was to practice how AI tools are used in a more practical system setting. Vertex AI helped me work on:
 
 
 
-\- cloud-based training workflow
+\- cloud-based model training
 
-\- choosing an optimization objective
+\- selecting an optimization objective
 
 \- evaluating an imbalanced classification problem
 
-\- using precision-recall instead of only accuracy
+\- using precision-recall instead of relying only on accuracy
 
-\- interpreting model outputs visually
+\- reviewing model outputs visually
 
-\- understanding that deployment-oriented AI work includes infrastructure limits and resource planning
-
-
-
-\## Course-to-project connection
+\- thinking about implementation limits such as cloud resource quotas
 
 
 
-This case study connects to the course in four main ways:
+\## How the project connects to the course
+
+
+
+This case study connects to the course in four main ways.
 
 
 
 \### 1. Business framing
 
+
+
 Fraud detection is a real business problem with direct financial and customer experience impact.
+
+
+
+This made it a good example for thinking about AI as a business solution, not only as a technical task.
 
 
 
 \### 2. Metric selection
 
-The dataset is highly imbalanced, so precision-recall is more meaningful than simple accuracy.
+
+
+The dataset is highly imbalanced, so precision-recall is more useful than simple accuracy.
+
+
+
+This matched the course idea that the evaluation method should fit the actual problem.
 
 
 
 \### 3. AI system thinking
 
-The project included cloud resource constraints, which showed that AI work also depends on platform limits and cost considerations.
+
+
+The project included a cloud resource quota issue during training.
+
+
+
+That part was important because it showed that AI work is also affected by platform limits, cost, and workflow decisions.
 
 
 
 \### 4. Trust and explainability
 
-The feature importance output helped me think about why the model made predictions and which signals seemed strongest.
+
+
+The feature importance output gave me a way to see which fields the model relied on most.
 
 
 
-\## What I learned from the course through this project
+This connected well to the course discussion about trust in AI systems and explainable outputs.
+
+
+
+\## What I learned from this project
 
 
 
@@ -130,11 +158,11 @@ This project helped me understand that a useful AI project needs:
 
 \- the right interpretation
 
-\- realistic thinking about operational constraints
+\- realistic thinking about operational limits
 
 
 
-That is the main reason I chose to keep this project in my portfolio.
+For me, this project was a good practice example of applying course ideas in a real tool workflow.
 
 
 
@@ -147,4 +175,6 @@ That is the main reason I chose to keep this project in my portfolio.
 \- \[Portfolio PDF](../portfolio/EAI6020\_VertexAI\_Credit\_Card\_Fraud\_Portfolio\_Cheng\_Liu.pdf)
 
 \- \[Original Assignment Report](../reports/EAI6020\_Module\_4\_Assignment\_Cheng\_Liu.pdf)
+
+\- \[Dataset Note](../data/README.md)
 
