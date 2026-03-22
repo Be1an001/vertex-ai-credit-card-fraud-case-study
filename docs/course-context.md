@@ -6,7 +6,7 @@
 
 
 
-\*\*EAI6020: AI Systems Technology\*\*  
+\*\*EAI6020: AI Systems Technology\*\*
 
 Northeastern University
 
