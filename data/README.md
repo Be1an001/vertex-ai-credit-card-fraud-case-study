@@ -10,18 +10,54 @@ I am not republishing the raw dataset in this repository because I want to stay 
 
 ## Original source
 
-Kaggle dataset used in the project:
+Dataset page:
 
-**Credit Card Fraud Detection**  
-Author: **Bhadra Mohit**  
-Source: Kaggle dataset page
+- [Credit Card Fraud Detection - "Trends and Tactics in Modern Credit Card Fraud"](https://www.kaggle.com/datasets/bhadramohit/credit-card-fraud-detection/data)
+
+Dataset author on Kaggle:
+
+- **Bhadra Mohit**
+
+Page note from the dataset listing I referenced:
+
+- **Updated a year ago**
+
+## Short dataset introduction
+
+This dataset is presented as a credit card fraud analysis dataset designed to simulate modern transaction behavior and fraud patterns.
+
+According to the Kaggle dataset page, it focuses on:
+
+- credit card fraud analysis and prevention
+- transaction pattern study
+- fraud detection modeling
+- feature importance analysis
+- practical ideas for fraud monitoring and prevention
+
+The dataset description explains that it contains **100,000 simulated transactions** and includes fields such as:
+
+- `TransactionID`
+- `TransactionDate`
+- `Amount`
+- `MerchantID`
+- `TransactionType`
+- `Location`
+- `IsFraud`
+
+The main idea is to support analysis of fraud behavior, class imbalance, predictive modeling, and prevention-oriented thinking.
 
 ## How to access the dataset
 
-1. Go to the Kaggle dataset page for the project source.
-2. Review the dataset terms and license on Kaggle.
-3. Download the dataset directly from Kaggle to your local machine.
-4. If you want to recreate the workflow, prepare a sampled version suitable for your own Vertex AI environment.
+You can view the dataset page directly here:
+
+- [Open the Kaggle dataset page](https://www.kaggle.com/datasets/bhadramohit/credit-card-fraud-detection/data)
+
+Suggested steps:
+
+1. Open the Kaggle dataset page.
+2. Review the dataset description and terms on Kaggle.
+3. Download the dataset directly from the source page.
+4. If you want to recreate the same kind of workflow, prepare a smaller sampled version if needed for your own Vertex AI environment.
 
 ## Working dataset used in my assignment
 
@@ -32,8 +68,16 @@ My report describes a working dataset with:
 - 1% fraud ratio
 - target column: `IsFraud`
 
+This was a reduced working version used after my first full-data training attempt ran into cloud resource quota limits.
+
 ## Why the raw file is not included
 
 This repository is intended as a **portfolio documentation repo**, not a dataset mirror.
 
-I chose to provide the source and usage guidance instead of rehosting the CSV file here.
+I chose to provide the source link and usage guidance instead of rehosting the CSV file here.
+
+## Related files
+
+- [Project Walkthrough](../docs/project-walkthrough.md)
+- [Portfolio PDF](../portfolio/EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
+- [Original Assignment Report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf)
