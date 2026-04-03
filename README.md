@@ -4,6 +4,8 @@ A portfolio case study from **[EAI6020: AI Systems Technology](docs/course-conte
 
 This project shows how I used **Google Cloud Vertex AI AutoML** to work on a **credit card fraud detection** problem with an imbalanced dataset. The main focus of this project is not hand-written model code. Instead, it is about **business framing, model evaluation, threshold selection, and explainability** in a cloud AI workflow.
 
+This public repository is an implementation record and portfolio case study package. It does **not** include the raw dataset or a fully rerunnable end-to-end workflow artifact, and the exact sampled working file, threshold-comparison artifact, and step-by-step Vertex AI recreation are not included in this version.
+
 ## Why I included this project
 
 I included this project in my portfolio because it shows a different side of my work.
@@ -84,6 +86,7 @@ If you want the fastest overview of this project, I suggest reading in this orde
 ```text
 .
 ├── README.md
+├── .gitattributes
 ├── .gitignore
 ├── reports/
 │   ├── README.md

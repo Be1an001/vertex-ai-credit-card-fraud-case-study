@@ -8,6 +8,8 @@ I used **Google Cloud Vertex AI AutoML** to build and evaluate a credit card fra
 
 This public repo version is a cleaner portfolio version. It focuses on the problem, the workflow, the evaluation logic, and the final threshold decision.
 
+It is meant to document the project clearly, not to serve as a fully rerunnable end-to-end build package.
+
 Related files:
 
 - [Portfolio PDF](../portfolio/EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
@@ -36,6 +38,8 @@ This made threshold selection part of the project, not just model training.
 The original source was a public Kaggle dataset about credit card fraud detection.
 
 For my Vertex AI workflow, I ultimately used a **20,000-row sample** that preserved the **1% fraud ratio** from the larger source.
+
+This repo records that working setup, but it does not include the raw CSV, the exact sampled working file, or a step-by-step recreation artifact for the full workflow.
 
 Main fields included:
 
@@ -155,6 +159,8 @@ That is why I did not want to stop at PR AUC and ROC AUC only.
 The default threshold of **0.5** was not suitable.
 
 I compared different threshold behaviors and selected **0.75** as a better balance point.
+
+The decision is documented here from the project record, report, and screenshots. The exact threshold-comparison artifact used during the course workflow is not included in this public repo.
 
 At this threshold, the model achieved approximately:
 
