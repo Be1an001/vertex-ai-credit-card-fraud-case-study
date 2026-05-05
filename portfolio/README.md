@@ -1,26 +1,31 @@
 # Portfolio PDF
 
-This folder contains the portfolio-ready version of the project.
+This folder contains the shorter portfolio version of the project.
 
-## File included
+## File Included
 
 - [EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf](EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
 
 ## Purpose
 
-This PDF is the cleaner showcase version of the project. It was rewritten from the original assignment into a shorter and more visual format so that recruiters, hiring managers, or interviewers can understand the project quickly.
+This PDF rewrites the original assignment into a shorter and more visual case-study format. It is meant to complement the main [README](../README.md), not replace the original report.
 
-It is meant to complement the main [README](../README.md), not replace the original report.
-
-## Best use
-
-This is the best file to open first if you want a quick overview of:
+The portfolio PDF is useful for quickly reviewing:
 
 - the business problem
 - why Vertex AI AutoML was used
 - the dataset setup
 - key screenshots from the workflow
-- the final threshold decision
-- the main project takeaways
+- the documented threshold decision
+- the main limitations and future improvement ideas
 
-You can also compare it with the [original assignment report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf).
+## Important Context
+
+The PDF summarizes a completed course workflow. It does not make the repository fully rerunnable because the raw data, exact sampled file, model artifact, and threshold-comparison artifact are not included.
+
+## Related Files
+
+- [Main README](../README.md)
+- [Project Walkthrough](../docs/project-walkthrough.md)
+- [Original Assignment Report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf)
+- [Asset Guide](../assets/README.md)

@@ -5,35 +5,27 @@
 **EAI6020: AI Systems Technology**  
 Northeastern University
 
-## Why this project fits the course
+## Project Fit
 
-This project fits the course because EAI6020 was not only about building models. It was also about understanding how AI systems are used in organizational settings.
+This project fits the course because EAI6020 was not only about building models. It also focused on how AI systems are used in business and organizational settings.
 
 The course covered topics such as:
 
 - AI adoption in business
 - solution design
-- ML workflow thinking
+- machine learning workflow thinking
 - model evaluation and optimization
 - explainability and trust
 - sustaining AI solutions
 - business alignment for AI projects
 
-In Module 4, the focus moved more directly into:
+In Module 4, the focus moved more directly into cost-aware machine learning workflow decisions, AutoML, trust in AI outputs, and practical evaluation choices.
 
-- cost analysis in ML pipelines
-- MinMax thinking
-- AutoML
-- trust in AI outputs
-- practical workflow decisions
+## Why Vertex AI AutoML Was Used
 
-That is why using Vertex AI AutoML was a good fit for this assignment.
+I used Vertex AI AutoML because the assignment was not mainly about writing a custom classifier. The goal was to practice a cloud AI workflow and evaluate how the model output could support a business decision.
 
-## Why I used Vertex AI
-
-I used Vertex AI because this project was not only about coding a classifier.
-
-A big part of the learning goal was to practice how AI tools are used in a more practical system setting. Vertex AI helped me work on:
+Vertex AI helped me work on:
 
 - cloud-based model training
 - selecting an optimization objective
@@ -42,48 +34,37 @@ A big part of the learning goal was to practice how AI tools are used in a more 
 - reviewing model outputs visually
 - thinking about implementation limits such as cloud resource quotas
 
-## How the project connects to the course
+## How the Project Connects to the Course
 
-This case study connects to the course in four main ways.
+### Business Framing
 
-### 1. Business framing
+Fraud detection has a clear trade-off between missed fraud and false alarms. This made it a useful case for thinking about AI as a business decision-support tool.
 
-Fraud detection is a real business problem with direct financial and customer experience impact.
+### Metric Selection
 
-This made it a good example for thinking about AI as a business solution, not only as a technical task.
+The dataset was highly imbalanced, so precision-recall evaluation was more appropriate than simple accuracy.
 
-### 2. Metric selection
+### AI System Thinking
 
-The dataset is highly imbalanced, so precision-recall is more useful than simple accuracy.
+The project included a cloud resource quota issue during training. That experience connected the model workflow to platform limits, cost, and planning.
 
-This matched the course idea that the evaluation method should fit the actual problem.
+### Trust and Explainability
 
-### 3. AI system thinking
+The feature attribution output gave a way to review which fields the model relied on. This connected to the course discussion about trust and explainability, while still requiring careful interpretation.
 
-The project included a cloud resource quota issue during training.
+## Learning Takeaway
 
-That part was important because it showed that AI work is also affected by platform limits, cost, and workflow decisions.
+This project helped me practice the idea that a useful AI project needs:
 
-### 4. Trust and explainability
-
-The feature importance output gave me a way to see which fields the model relied on most.
-
-This connected well to the course discussion about trust in AI systems and explainable outputs.
-
-## What I learned from this project
-
-This project helped me understand that a useful AI project needs:
-
-- the right business problem
-- the right metric
-- the right threshold
-- the right interpretation
+- a clear business problem
+- an evaluation metric that fits the problem
+- a threshold decision that matches the use case
+- careful interpretation of model outputs
 - realistic thinking about operational limits
 
-For me, this project was a good practice example of applying course ideas in a real tool workflow.
+## Related Files
 
-## Related files
-
+- [Main README](../README.md)
 - [Project Walkthrough](project-walkthrough.md)
 - [Portfolio PDF](../portfolio/EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
 - [Original Assignment Report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf)

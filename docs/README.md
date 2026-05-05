@@ -1,18 +1,21 @@
 # Docs
 
-This folder contains supporting documentation for the portfolio version of this project.
+This folder contains supporting documentation for the portfolio version of the Vertex AI credit card fraud case study.
 
 ## Files
 
 - [course-context.md](course-context.md)  
-  Explains where this project fits in EAI6020 and why Vertex AI AutoML made sense for this module.
+  Explains where the project fits in EAI6020 and why Vertex AI AutoML was a reasonable tool for this module.
 
 - [project-walkthrough.md](project-walkthrough.md)  
-  Gives a clean, interview-friendly walkthrough of the project from business problem to conclusion.
+  Walks through the project from business problem to dataset scope, model evaluation, threshold decision, feature attribution, and limitations.
 
-## Suggested reading order
+## Suggested Reading Order
 
-1. [Project Walkthrough](project-walkthrough.md)
-2. [Course Context](course-context.md)
-3. [Portfolio PDF](../portfolio/EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
-4. [Original Assignment Report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf)
+1. [Main README](../README.md)
+2. [Project Walkthrough](project-walkthrough.md)
+3. [Course Context](course-context.md)
+4. [Dataset Note](../data/README.md)
+5. [Asset Guide](../assets/README.md)
+6. [Portfolio PDF](../portfolio/EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
+7. [Original Assignment Report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf)

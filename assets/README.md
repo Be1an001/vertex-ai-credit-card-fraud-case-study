@@ -1,39 +1,46 @@
 # Assets
 
-This folder contains image assets used in this repository.
+This folder contains the Vertex AI screenshots used as evidence for the project.
 
-## Included screenshots
+Because the model work was completed mainly through Vertex AI AutoML, these screenshots are important documentation artifacts. They help show the evaluation metrics, PR/ROC views, confusion matrix behavior, and feature attribution used in the case study.
 
-The screenshots in [`assets/images/`](images/) were extracted from my Vertex AI project workflow and used in my assignment report and portfolio PDF.
+## Included Screenshots
 
-Files:
-
-- [vertex-ai-evaluation-details.png](images/vertex-ai-evaluation-details.png)
-- [vertex-ai-pr-roc-curves.png](images/vertex-ai-pr-roc-curves.png)
-- [vertex-ai-confusion-matrix.png](images/vertex-ai-confusion-matrix.png)
-- [vertex-ai-feature-importance.png](images/vertex-ai-feature-importance.png)
+| File | Purpose |
+|---|---|
+| [vertex-ai-evaluation-details.png](images/vertex-ai-evaluation-details.png) | Shows reported Vertex AI evaluation metrics at the default confidence threshold. |
+| [vertex-ai-pr-roc-curves.png](images/vertex-ai-pr-roc-curves.png) | Shows PR and ROC curve views for the imbalanced classification task. |
+| [vertex-ai-confusion-matrix.png](images/vertex-ai-confusion-matrix.png) | Shows confusion matrix behavior used in the threshold discussion. |
+| [vertex-ai-feature-importance.png](images/vertex-ai-feature-importance.png) | Shows Vertex AI feature attribution for the trained AutoML model. |
 
 ## Preview
 
-### Evaluation details
+### Evaluation Details
+
 [![Evaluation details](images/vertex-ai-evaluation-details.png)](images/vertex-ai-evaluation-details.png)
 
-### PR and ROC curves
+### PR and ROC Curves
+
 [![PR and ROC curves](images/vertex-ai-pr-roc-curves.png)](images/vertex-ai-pr-roc-curves.png)
 
-### Confusion matrix
+### Confusion Matrix
+
 [![Confusion matrix](images/vertex-ai-confusion-matrix.png)](images/vertex-ai-confusion-matrix.png)
 
-### Feature importance
+### Feature Importance
+
 [![Feature importance](images/vertex-ai-feature-importance.png)](images/vertex-ai-feature-importance.png)
 
-## Why these screenshots are included
+## Interpretation Notes
 
-Because this project was completed mainly through **Vertex AI AutoML**, the screenshots are an important part of the project evidence. They help show:
+- The evaluation details screenshot supports the reported model metrics, but it is not a complete training artifact.
+- The PR/ROC curves are useful for explaining why imbalanced fraud detection should not rely only on accuracy.
+- The confusion matrix is useful for discussing default-threshold behavior, but it should not be treated as the final selected operating policy.
+- The feature importance screenshot is useful for model review, but `TransactionID` appearing as an important feature should be treated carefully because ID-style fields can create leakage or generalization concerns.
 
-- the evaluation metrics
-- PR and ROC curve views
-- confusion matrix behavior
-- model feature attribution
+## Related Files
 
-This project is documentation-heavy by design, so these images are part of the core project story.
+- [Main README](../README.md)
+- [Project Walkthrough](../docs/project-walkthrough.md)
+- [Portfolio PDF](../portfolio/EAI6020_VertexAI_Credit_Card_Fraud_Portfolio_Cheng_Liu.pdf)
+- [Original Assignment Report](../reports/EAI6020_Module_4_Assignment_Cheng_Liu.pdf)
